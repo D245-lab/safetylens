@@ -1,0 +1,21 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://safetylens.pro/sitemap.xml
+
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /dashboard/private/
+
+# Allow important pages
+Allow: /pricing
+Allow: /features
+Allow: /about
+Allow: /contact
+Allow: /blog/
+
+# Crawl delay (optional)
+Crawl-delay: 1
+
